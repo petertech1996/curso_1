@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>secccion de contenido</title>
+</head>
+<!-- 
+    section: es un contenedor generic que esta relacinado. cuando creamos bloques cuyo contenido es parte de un bloque total usarmos section
+    
+    article: es un contendor que representar cotenido independiente, es decir, podemos leer ese fragmento en cualquier otro sitio y tendria sentido por si mismo.
+    
+    aside: se ultiliza para representar contenido relacionado pero
+    que no forma parte del contenido principal.
+
+    anidmiento:
+        un setion puede contener articles, por ejemplo, si tenemos varlos articulos que hablan sobre etiquetas html, deben ir dentro de unn section, ya que es contendo relacionado entre si y los article serian contennido independiste porque podrianos leer uno sin haber leido el resto y seguiria teniendo sentido.
+        el article es definido como un componente de la pagina de contenido indepeniente, esto implica que esta etiqueta pueda tener un header y un footer propios.
+        
+        tambien existe el caso en el que un article contenga varias secciones, el articulo independiente podria ser navegadores mas utilizados en 2020 
+ -->
+
+<body>
+    <header>
+        <h1>NOTICIAS NACIONALES</h1>
+    </header>
+    <aside>visita mi canal de youtube </aside>
+    <main> 
+        <section>
+            <h2>ection como contedor</h2>
+            <section>
+            <header>
+                
+            <h3>noticias del dia</h3>
+            <article>
+                <h3>noticia 1</h3>
+            </header>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, laborum nesciunt. Autem officiis quasi sit? At sequi quas beatae reiciendis voluptates nihil esse tempore, dolorum quasi consectetur a quod dolorem.</p>
+                <footer>la noticia 1 ocurio en madrid</footer>
+        </article>
+        <article>
+            <h4>noticia 2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur libero quod, culpa explicabo placeat laborum maiores sed ipsum architecto deserunt aspernatur sit. Recusandae suscipit nisi nemo itaque facilis et molestias!</p>
+        </article>
+        <article>
+            <h4>noticia 3</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore rerum illum omnis delectus quis dicta nam consequatur ipsa culpa placeat id nisi, fugiat, reprehenderit officiis! Adipisci architecto ut asperiores ad.</p>
+        </article>
+    </section>
+</section>
+
+<article>
+    <h2>navegadores mas utilizados  en 2020</h2>
+    <section>
+        <header>
+        <h3>chrome</h3>
+        </header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non porro quaerat vero quibusdam repudiandae tempore. Illo vel sint amet, nesciunt voluptates minus corrupti voluptate ullam exercitationem eligendi, assumenda nulla sapiente.</p>
+        <footer>creado por google </footer>
+    </section>
+    <section>
+        <h3>firefox</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, repellendus nobis ab doloremque, rerum asperiores sit incidunt veniam id, est eius exercitationem eaque amet unde repudiandae in temporibus laboriosam saepe.</p>
+    </section>
+</article>
+</main>
+<footer>4-11-2020</footer>   
+</body>
+</html>
